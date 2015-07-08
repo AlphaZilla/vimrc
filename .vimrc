@@ -28,10 +28,6 @@ set nocompatible
 set autoread
 au CursorHold * checktime
 
-
-
-
-
 colorscheme desert
 set number
 set relativenumber
@@ -55,9 +51,6 @@ nmap <M-k> mz:m-2<cr>`z
 vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
-
-
-
 "set textwidth=79
 
 " Easier split navigations
@@ -75,9 +68,6 @@ set so=7
 
 " Height of the command bar
 set cmdheight=2
-
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
@@ -113,13 +103,6 @@ map <leader>t<leader> :tabnext<cr>
 map <leader>tj :tabprevious<cr>
 
 "========== end <leader> end ============
-
-
-"Set Python max normal text width to 79 columns and comment text to 72 lines
-"Python end ========================================================================================================
-
-
-
 
 "======================================================================
 "======================================================================
